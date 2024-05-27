@@ -1,0 +1,16 @@
+
+DELETE localhost:8080/api/pet/6
+###
+
+POST localhost:8080/api/pet
+Content-Type: application/json
+
+{"idTypePet": "Dog", "namePet": "Luna update", "breedPet": "Husky Siberiano"}
+###
+
+
+GET http://localhost:8080/api/pet/getAllPets
+###
+
+GET http://localhost:8080/api/pet/getPetById/6
+###
